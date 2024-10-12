@@ -8,6 +8,7 @@ echo "Unpacking sysroot..."
 
 mkdir -p "$CYGSYSROOT"
 
+tar xf "$CYGPACKAGES/cygwin-3.5.4-1.tar.xz" -C "$CYGSYSROOT"
 tar xf "$CYGPACKAGES/cygwin-devel-3.5.4-1.tar.xz" -C "$CYGSYSROOT"
 tar xf "$CYGPACKAGES/w32api-headers-12.0.0-1.tar.xz" -C "$CYGSYSROOT"
 tar xf "$CYGPACKAGES/w32api-runtime-12.0.0-1.tar.xz" -C "$CYGSYSROOT"

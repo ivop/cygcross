@@ -13,4 +13,4 @@ GCC_SRC="$SRC"/gcc-12.4.0
 GCC_BUILD="$BUILD"/gcc
 
 MIRROR=https://ftp.snt.utwente.nl/pub/software/cygwin/x86_64/release/
-WGETFLAGS=-nv
+WGETFLAGS="-nv -c"

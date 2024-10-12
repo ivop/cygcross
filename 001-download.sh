@@ -12,6 +12,7 @@ cd "$CYGPACKAGES"
 
 # binary packages:
 
+wget $WGETFLAGS $MIRROR/cygwin/cygwin-3.5.4-1.tar.xz
 wget $WGETFLAGS $MIRROR/cygwin/cygwin-devel/cygwin-devel-3.5.4-1.tar.xz
 wget $WGETFLAGS $MIRROR/w32api-headers/w32api-headers-12.0.0-1.tar.xz
 wget $WGETFLAGS $MIRROR/w32api-runtime/w32api-runtime-12.0.0-1.tar.xz
